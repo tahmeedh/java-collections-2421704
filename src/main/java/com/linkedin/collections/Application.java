@@ -8,7 +8,7 @@ public class Application {
 		Room manchester = new Room("Manchester", "Suite", 5, 250.0);
 
 		double total = getPotentialRevenue(cambridge, manchester);
-		System.out.println(total);
+		System.out.println("Total" + total);
 	}
 	
 	private static double getPotentialRevenue(Room room1, Room room2) {
